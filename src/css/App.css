@@ -1,0 +1,51 @@
+
+/* Form styling */
+#form-container {
+    width: 60vw;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#location-input {
+    width: 300px;
+}
+
+#submit-button {
+    width: fit-content;
+}
+
+.form-element {
+    margin-top: 5px;
+}
+
+
+/* Output styling */
+#weather-output {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid gray;
+    background-color: rgb(200,200,200);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.temp-info {
+    font-size: 32px;
+}
+
+.temp-info-2 {
+    font-size: 24px;
+}
