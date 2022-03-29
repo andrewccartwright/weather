@@ -54,6 +54,7 @@
 @media (max-width: 600px) {
     #weather-output {
         width: 90vw;
-        height: 80vh;
+        height: 50vh;
+        min-height: 300px;
     }
 }
