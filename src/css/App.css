@@ -29,7 +29,7 @@
 
 /* Output styling */
 #weather-output {
-    height: 500px;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@
     border-radius: 25px;
     border: 2px solid gray;
     background-color: rgb(200,200,200);
-    width: 600px;
+    width: 40vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -54,7 +54,13 @@
 @media (max-width: 600px) {
     #weather-output {
         width: 90vw;
-        height: 50vh;
+        height: 60vh;
         min-height: 300px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    #weather-output {
+        width: 60vw;
     }
 }
